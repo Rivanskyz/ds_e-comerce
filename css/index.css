@@ -1,0 +1,535 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	background:url(../img/bg.jpg) repeat top center fixed;
+}
+body{
+	width: 1210px;
+	margin: auto;
+	color:#fff;
+}
+p {
+    word-wrap: break-word;
+	padding:10px;
+} 
+a{
+	color:#fff;
+	text-decoration:none;
+}
+a:hover{
+	color:#f33;
+}
+.subtitle1{
+	width:1200px;
+	height:50px;
+	font-size:40px;
+	text-align:center;
+	text-transform:capitalize;
+	float:right;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#ff3333;
+}
+.subtitle_contact{
+	width:800px;
+	height:50px;
+	font-size:40px;
+	padding-right:10px;
+	text-align:right;
+	text-transform:capitalize;
+	float:right;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#ff3333;
+}
+.subtitle1_0{
+	width:1200px;
+	height:auto;
+	font-size:40px;
+	text-align:center;
+	text-transform:capitalize;
+	float:right;
+	margin-top:10px;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#ff3333;
+	background:rgba(0,0,0,0.5);
+}
+.price1{
+	width:600px;
+	height:50px;
+	font-size:40px;
+	text-align:left;
+	text-transform:capitalize;
+	float:right;
+}
+.price2{
+	width:300px;
+	float:right;	
+}
+.subtitle1_1{
+	width:500px;
+	height:50px;
+	font-size:40px;
+	text-align:right;
+	padding-right:10px;
+	text-transform:capitalize;
+	float:right;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#ff3333;
+}
+.subtitle_galery{
+	width:300px;
+	height:30px;
+	font-size:20px;
+	text-align:center;
+	text-transform:capitalize;
+	float:right;
+	
+}
+
+.subtitle1_2{
+	width:250px;
+	height:50px;
+	font-size:45px;
+	text-align:left;
+	padding-left:10px;
+	text-transform:capitalize;
+	float:left;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#ff3333;
+}
+.subtitle2_1{
+	width:100%;
+	height:auto;
+	font-size:20px;
+	text-align:center;
+	text-transform:capitalize;
+	float:right;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#999;
+}
+.subtitle2_1 a{
+	color:#fff;
+	text-decoration:none;
+}
+.subtitle2_1 a:hover{
+	color:#f33;
+}
+.button{
+	width:230px;
+	height:40px;
+	float:left;
+	margin:10px;
+	padding-top:5px;
+	text-align:center;
+	font-size:25px;
+	text-transform:capitalize;
+	background:rgba(225,225,225,0.7);
+}
+.button_input{
+	width:230px;
+	height:40px;
+	float:left;
+	margin-top:10px;
+	margin-right:10px;
+	color:#fff;
+	text-align:center;
+	font-size:25px;
+	text-transform:capitalize;
+	background:rgba(225,225,225,0.7);
+}
+.button_input:hover{
+	color:#f33;
+}
+ 
+/* header */
+
+.header{
+	width:1200px;
+	height:160px;
+	float:left;
+	margin-bottom:10px;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#999;
+	background:rgba(0,0,0,0.5);
+	/*background:rgba(255,255,255,0.4);*/
+}
+.logo{
+	width:300px;
+	height:160px;
+	text-align:center;
+	float:left;
+	margin-top:5px;
+	}
+.logo img{
+	width:150px;
+}
+.logo .tagline{
+	width:300px;
+	height:20px;
+	text-align:center;
+	font-size:25px;
+}
+.headertop{
+	width:900px;
+	height:120px;
+	text-align:left;
+	float:left;
+}
+.seachbar{
+	width:400px;
+	margin-top:15px;
+	margin-right:10px;
+	float:right;
+}
+.menubar{
+	width:900px;
+	height:40px;
+	text-align:right;
+	text-transform:capitalize;
+	font-size:25px;
+	float:left;
+}
+.menubar a{
+	text-decoration:none;
+	font-style:oblique;
+	color:#ccc;
+	padding:10px;
+}
+.menubar a:hover{
+	text-decoration:underline;
+	color:#ff3333;
+}
+ 
+.slider{
+	width:1200px;
+	height:500px;
+	float:left;
+	margin-bottom:10px;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#999;
+	background:rgba(0,0,0,0.5);
+}
+
+/* main content */
+
+.main{
+	width: 1200px;
+	height: auto;
+	float:left;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#999;
+}
+.tumbbar{
+	width:1200px;
+	height:auto;
+	float:left;
+	text-align:center;
+	margin-right:10px;
+	background:rgba(0,0,0,0.5);
+
+}
+.tumbnail{
+	width:295px;
+	height:340px;
+	float:left;
+	margin-top:10px;
+	margin-left:4px;
+
+}
+.tumbnail:hover{
+	background:rgba(0,0,0,0.5);
+}
+.tumbnail img{
+	margin-top:40px;
+	margin-left:50px;
+	width:200px;
+	height:200px;
+	float:left;
+}
+.tumbnail img:hover{
+	margin-top:20px;
+	margin-left:15px;
+	width:260px;
+	height:260px;
+	box-shadow:0 0 20px #f33;
+}
+
+.galery{
+	width:290px;
+	height:auto;
+	text-align:center;
+	margin-bottom:10px;
+	margin-right:12px;
+	float:left;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#999;
+}	
+.galery1{
+	width:1200px;
+	height:auto;
+	text-align:center;
+	margin-bottom:10px;
+	margin-right:10px;
+	float:left;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#999;
+}
+.galery:hover, galery1:hover{
+	background:rgba(0,0,0,0.5);
+
+}
+.content{
+	width:1200px;
+	height:auto;
+	margin-bottom:10px;
+	float:left;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#999;
+	background:rgba(0,0,0,0.5);
+}
+
+.desc{
+	width:1180px;
+	float:left;
+	padding:10px;
+	font-size:20px;
+	text-align:justify;
+	text-justify:inter-word;
+}
+.desc_right{
+	width:700px;
+	float:right;
+	padding:10px;
+	font-size:20px;
+	text-align:justify;
+	text-justify:inter-word;
+}
+.contact{
+	width:800px;
+	height:150px;
+	margin:auto;
+	float:right;
+}
+.contact .uname{
+	width:600px;
+	height:60px;
+	margin-top:45px;
+	float:right;
+	font-size:50px;
+}
+.contact img{
+	width:150px;
+	height:150px;
+	float:right;
+}
+
+ 
+/* footer */
+		
+.footer{
+	width:1200px;
+	height:500px;
+	float:left;
+	margin-top:10px;
+}
+.bottombar{
+	width:1200px;
+	height:270px;
+	font-size:20px;
+	text-align:center;
+	color:#FFF;
+}
+.bottommenu{
+	width:280px;
+	height:100%;
+	float:left;
+	margin:10px;
+	font-size:24px;
+	font-style:oblique;
+	font-weight:bold;
+	border-top-style:solid;
+	border-top-width:5px;
+	border-top-color:#999;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#999;
+}
+.bottommenu:hover{
+	width:280px;
+	height:100%;
+	float:left;
+	margin:10px;
+	border-top-style:solid;
+	border-top-width:5px;
+	border-top-color:#ccc;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#fff;
+	background:rgba(0,0,0,0.5);
+}
+.bottommenu img{
+	width:230px;
+	height:auto;
+	margin-top:30px;
+}
+.webinfo{
+	width:1200px;
+	height:200px;
+	margin-top:40px;
+	font-size:24px;
+	text-align:center;
+	text-transform:capitalize;
+	background:rgba(0,0,0,0.5);
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#999;
+}
+.webinfo .title{
+	font-size:35px;
+	text-decoration:underline;
+}
+.footnote{
+	width:1200px;
+	height:30px;
+	margin-top:10px;
+	text-align:center;
+	color:#FFF;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#999;
+}
+.footnote a{
+	text-decoration:none;
+	color:#ccc;
+}
+
+/*----------------------------------*/
+/* CSS Resets */
+* {
+padding:0;
+margin:0;
+}
+.slider img {
+max-width: 100%;
+height: auto;
+}
+.slider ul,ol {
+list-style-type: none;
+}
+/* end css reset */.container { /* posisikan letak slidernya */
+margin:auto;
+position: relative;
+overflow: hidden;
+}
+.slider .container, ul.slide li img{
+width:1200px; /* Sesuaikan sendiri */
+height: 500px; /* Sesuaikan sendiri */
+}
+.slider ul.slide {
+position: absolute;
+display: block;
+width:300%; /* <-- Angka 3 Bergantung pada jumlah slide */
+}
+.slider .caption { /* styling untuk deskripsi setiap slide */
+position: absolute;
+background-color: rgba(0,0,0,0.5);
+bottom:0;
+padding:10px;
+color:#fff;
+left: 0;
+right: 0;
+}/* Yang membuatnya jadi slider, alias kode intinya */
+.slider ul.slide li {
+display: inline-block;
+float: left;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+ox-sizing:border-box;
+-webkit-transition: -webkit-transform 2000ms;
+-moz-transition: -moz-transform 2000ms;
+transition: -webkit-transform 2000ms, transform 2000ms;
+}
+.slider ul.slide li.slide-1 {
+left: 0%;
+}
+.slider ul.slide li.slide-2 {
+left: 100%;
+}
+.slider ul.slide li.slide-3 {
+left: 200%;
+}
+.slider #nav-1:checked ~ ul.slide li{
+-webkit-transform: translateX(0%);
+-moz-transform: translateX(0%);
+transform: translateX(0%);
+}
+.slider #nav-2:checked ~ ul.slide li{
+-webkit-transform: translateX(-100%);
+-moz-transform: translateX(-100%);
+transform: translateX(-100%);
+}
+.slider #nav-3:checked ~ ul.slide li {
+-webkit-transform: translateX(-200%);
+-moz-transform: translateX(-200%);
+transform: translateX(-200%);
+}
+/* End, yang membuatnya jadi slider *//* Navigator */
+.slider .radio-nav { /* menghilangkan radio button */
+display: none;
+}/* styling untuk tombol next dan previous slide */
+.slider .nav-arrow {
+position: absolute;
+top:45%;
+width:50px;
+height: 50px;
+}
+.slider .nav-next {
+right:10px;
+}
+.slider .nav-prev {
+left:10px;
+}
+.slider .nav-arrow label {
+-webkit-transition:all 0.3s;
+-moz-transition:all 0.3s;
+transition:all 0.3s;
+background-color: rgba(0,0,0,0.3);
+color: #fff;
+border-radius: 50%;
+display: block;
+position: absolute;
+padding:15px 20px;
+cursor: pointer;
+z-index: 1;
+opacity: 0;
+font-weight: bold;
+line-height: 1;
+}
+.slider .container:hover .nav-arrow label{
+background-color: rgba(0,0,0,0.7);
+}
+/* end styling untuk tombol next dan previous slide */
+/* Ini termasuk kode inti. Setiap slide mempunya tombol prev dan next-nya masing-masing. Nah, tampilkan tombol yang tepat dengan kode dibawah ini*/
+.slider #nav-1:checked ~ .nav-prev label.nav-3,
+.slider #nav-1:checked ~ .nav-next label.nav-2,
+.slider #nav-2:checked ~ .nav-prev label.nav-1,
+.slider #nav-2:checked ~ .nav-next label.nav-3,
+.slider #nav-3:checked ~ .nav-prev label.nav-2,
+.slider #nav-3:checked ~ .nav-next label.nav-1 {
+z-index: 2;
+opacity: 1;
+}
+/* end */
+
+/* Navigator */

@@ -3,9 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Adidas</title>
+<title>Darmawan Store</title>
 <link rel="stylesheet" href="css/index.css" type="text/css" />
-<link rel="shortcut icon" href="img/icon/favicon.ico" />
+<link rel="shortcut icon" href="img/icon/favicon.png" />
 </head>
 
 <body>

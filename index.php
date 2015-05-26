@@ -9,15 +9,15 @@
 $q=mysql_query('select * from products order by rand() limit 4');
 while($row=mysql_fetch_array($q)){
 	echo '
-        	<div class="tumbnail">
+        	<a href="products.php?no='.$row["No_Prod"].'" class="tumbnail">
             	<div class="subtitle2_1">
                 '.$row["Name"].'
                 </div>
-                <a href="products.php?no='.$row["No_Prod"].'"><img src="'.$row["Picture"].'" /></a><br>
+                <img src="'.$row["Picture"].'" /><br>
 				<div class="price2">
 				Rp. '.number_format($row['Price'],2,',','.').'
 				</div>
-            </div>
+            </a>
 			';
 }
 ?>

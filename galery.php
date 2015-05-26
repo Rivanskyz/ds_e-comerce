@@ -1,7 +1,6 @@
 <?php
 	include 'header.php';
-?>
-<?php
+
 if(!empty($_GET)){
 $no=$_GET['no'];
 $q=mysql_query("select * from products where No_Prod='$no'");
@@ -13,7 +12,7 @@ $row=mysql_fetch_array($q);
             '.$row["Name"].'
             </div>
 			<a href="galery.php">
-			<img src="'.$row["Picture"].'" width="800px"/></a>
+			<img src="'.$row["Picture"].'" width="500px"/></a>
 			</a>		
 			</div>
 			<center><h2><a href="galery.php">Back</a></h2></center>
@@ -38,7 +37,7 @@ while($row=mysql_fetch_array($q)){
 	}
 }
 ?>
-    </div>
+
 <?php
 	include 'footer.php';
 ?>

@@ -37,12 +37,12 @@ $row=mysql_fetch_array($q);
 							<tr>
 								<td><b>Color* </b></td>
 								<td> : </td>
-								<td><input type="text" name="color" required/></td>
+								<td><input type="text" name="color" required/> '.$row['Color'].'</td>
 							</tr>
 							<tr>
 								<td><b>Size* </b></td>
 								<td> : </td>
-								<td><input type="text" name="size" required/></td>
+								<td><input type="text" name="size" required/> '.$row['Size'].'</td>
 							</tr>
 							<tr>
 								<td><b>Nama* </b></td>

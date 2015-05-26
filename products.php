@@ -15,13 +15,35 @@ $row=mysql_fetch_array($q);
             </div>
             
             <div class="desc">
- 					<a href="products.php"><img src="'.$row["Picture"].'" width="500px"/></a>
+ 					<a href="products.php"><img src="'.$row["Picture"].'" width="400px"/></a>
 					<div class="price1">
-						'.$row['Gender'].' '.$row['Brand'].'<br>
-						'.$row['Color'].'<br>
-						'.$row['Size'].'<br>
-						'.$row['Stock'].' Pair<br>
-						Rp. '.number_format($row['Price'],2,',','.').'<br>
+					  <table>
+					    <tr>
+							<td>Category</td>
+							<td> : </td>
+							<td>'.$row['Gender'].' '.$row['Brand'].'</td>
+						</tr>
+						<tr>
+							<td>Ready Color 
+							<td> : </td>
+							<td>'.$row['Color'].'</td>
+						</tr>
+						<tr>
+							<td>Ready Size </td>
+							<td> : </td>
+							<td>'.$row['Size'].'</td>
+						</tr>
+						<tr>
+							<td>Ready Stock </td>
+							<td> : </td>
+							<td>'.$row['Stock'].' Pairs</td>
+						</tr>
+						<tr>
+							<td>Price</td>
+							<td> : </td>
+							<td>Rp. '.number_format($row['Price'],2,',','.').'</td>
+						</tr>
+					  </table>
 					<div class="button">
 					<a href="order.php?no='.$row["No_Prod"].'">Order Now</a>
 					</div>

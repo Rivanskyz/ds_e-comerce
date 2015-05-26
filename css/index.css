@@ -150,7 +150,7 @@ a:hover{
 
 .header{
 	width:1200px;
-	height:160px;
+	height:50px;
 	float:left;
 	margin-bottom:10px;
 	border-bottom-style:solid;
@@ -160,24 +160,24 @@ a:hover{
 	/*background:rgba(255,255,255,0.4);*/
 }
 .logo{
-	width:300px;
-	height:160px;
-	text-align:center;
+	width:290px;
+	height:100%;
+	text-align:left;
 	float:left;
-	margin-top:5px;
+	margin:5px;
 	}
 .logo img{
-	width:150px;
+	height:90%;
 }
-.logo .tagline{
-	width:300px;
-	height:20px;
-	text-align:center;
+.tagline{
+	width:100%;
+	text-align:right;
 	font-size:25px;
 }
 .headertop{
-	width:900px;
-	height:120px;
+	width:890px;
+	height:40%;
+	padding-right:10px;
 	text-align:left;
 	float:left;
 }
@@ -189,7 +189,7 @@ a:hover{
 }
 .menubar{
 	width:900px;
-	height:40px;
+	height:60%;
 	text-align:right;
 	text-transform:capitalize;
 	font-size:25px;
@@ -354,6 +354,7 @@ a:hover{
 	width:280px;
 	height:100%;
 	float:left;
+	padding-bottom:20px;
 	margin:10px;
 	font-size:24px;
 	font-style:oblique;
@@ -380,13 +381,12 @@ a:hover{
 }
 .bottommenu img{
 	width:230px;
-	height:auto;
 	margin-top:30px;
 }
 .webinfo{
 	width:1200px;
 	height:200px;
-	margin-top:40px;
+	margin-top:60px;
 	font-size:24px;
 	text-align:center;
 	text-transform:capitalize;
@@ -409,127 +409,3 @@ a:hover{
 	border-bottom-width:5px;
 	border-bottom-color:#999;
 }
-.footnote a{
-	text-decoration:none;
-	color:#ccc;
-}
-
-/*----------------------------------*/
-/* CSS Resets */
-* {
-padding:0;
-margin:0;
-}
-.slider img {
-max-width: 100%;
-height: auto;
-}
-.slider ul,ol {
-list-style-type: none;
-}
-/* end css reset */.container { /* posisikan letak slidernya */
-margin:auto;
-position: relative;
-overflow: hidden;
-}
-.slider .container, ul.slide li img{
-width:1200px; /* Sesuaikan sendiri */
-height: 500px; /* Sesuaikan sendiri */
-}
-.slider ul.slide {
-position: absolute;
-display: block;
-width:300%; /* <-- Angka 3 Bergantung pada jumlah slide */
-}
-.slider .caption { /* styling untuk deskripsi setiap slide */
-position: absolute;
-background-color: rgba(0,0,0,0.5);
-bottom:0;
-padding:10px;
-color:#fff;
-left: 0;
-right: 0;
-}/* Yang membuatnya jadi slider, alias kode intinya */
-.slider ul.slide li {
-display: inline-block;
-float: left;
--webkit-box-sizing:border-box;
--moz-box-sizing:border-box;
-ox-sizing:border-box;
--webkit-transition: -webkit-transform 2000ms;
--moz-transition: -moz-transform 2000ms;
-transition: -webkit-transform 2000ms, transform 2000ms;
-}
-.slider ul.slide li.slide-1 {
-left: 0%;
-}
-.slider ul.slide li.slide-2 {
-left: 100%;
-}
-.slider ul.slide li.slide-3 {
-left: 200%;
-}
-.slider #nav-1:checked ~ ul.slide li{
--webkit-transform: translateX(0%);
--moz-transform: translateX(0%);
-transform: translateX(0%);
-}
-.slider #nav-2:checked ~ ul.slide li{
--webkit-transform: translateX(-100%);
--moz-transform: translateX(-100%);
-transform: translateX(-100%);
-}
-.slider #nav-3:checked ~ ul.slide li {
--webkit-transform: translateX(-200%);
--moz-transform: translateX(-200%);
-transform: translateX(-200%);
-}
-/* End, yang membuatnya jadi slider *//* Navigator */
-.slider .radio-nav { /* menghilangkan radio button */
-display: none;
-}/* styling untuk tombol next dan previous slide */
-.slider .nav-arrow {
-position: absolute;
-top:45%;
-width:50px;
-height: 50px;
-}
-.slider .nav-next {
-right:10px;
-}
-.slider .nav-prev {
-left:10px;
-}
-.slider .nav-arrow label {
--webkit-transition:all 0.3s;
--moz-transition:all 0.3s;
-transition:all 0.3s;
-background-color: rgba(0,0,0,0.3);
-color: #fff;
-border-radius: 50%;
-display: block;
-position: absolute;
-padding:15px 20px;
-cursor: pointer;
-z-index: 1;
-opacity: 0;
-font-weight: bold;
-line-height: 1;
-}
-.slider .container:hover .nav-arrow label{
-background-color: rgba(0,0,0,0.7);
-}
-/* end styling untuk tombol next dan previous slide */
-/* Ini termasuk kode inti. Setiap slide mempunya tombol prev dan next-nya masing-masing. Nah, tampilkan tombol yang tepat dengan kode dibawah ini*/
-.slider #nav-1:checked ~ .nav-prev label.nav-3,
-.slider #nav-1:checked ~ .nav-next label.nav-2,
-.slider #nav-2:checked ~ .nav-prev label.nav-1,
-.slider #nav-2:checked ~ .nav-next label.nav-3,
-.slider #nav-3:checked ~ .nav-prev label.nav-2,
-.slider #nav-3:checked ~ .nav-next label.nav-1 {
-z-index: 2;
-opacity: 1;
-}
-/* end */
-
-/* Navigator */

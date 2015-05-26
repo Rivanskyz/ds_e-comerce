@@ -1,31 +1,31 @@
     
     <div class="footer">
     	<div class="bottombar">
-			<div class="bottommenu">
-            	<a href="testimony.php"><img src="img/icon/profile.png" /></a>
+			<a href="testimony.php" class="bottommenu">
+            	<img src="img/icon/profile.png" />
                 <hr />Testimony
-            </div>
-            <div class="bottommenu">
-            	<a href="products.php"><img src="img/icon/products.png" /></a>
+            </a>
+            <a href="products.php" class="bottommenu">
+            	<img src="img/icon/products.png" />
                 <hr />Products
-            </div>
-            <div class="bottommenu">
-            	<a href="galery.php"><img src="img/icon/galery.png" /></a>
+            </a>
+            <a href="galery.php" class="bottommenu">
+            	<img src="img/icon/galery.png" />
                 <hr />Galery
-            </div>
-            <div class="bottommenu">
-            	<a href="contact.php"><img src="img/icon/contact.png" /></a>
+            </a>
+            <a href="contact.php" class="bottommenu">
+            	<img src="img/icon/contact.png" />
                 <hr />Contact Us
-            </div>
+            </a>
             
         </div>
         
         <div class="webinfo">
-        <div class="title">Official Addidas</div>
+        <div class="title">Darmawan Store</div>
 		</div>
         
         <div class="footnote">
-        &copy; <a href="#">Addidas</a> Suported By <a href="#">Riffai Rifan Darmawan</a>
+        &copy; <a href="#">Darmawan Store</a> Suported By <a href="#">Riffai Rifan Darmawan</a>
     </div>
 </body>
 </html>

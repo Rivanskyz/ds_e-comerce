@@ -21,6 +21,12 @@ $q=mysql_query("select * from admin where Username='$user'") or die ('select ero
       	    </a>
         </div>
         <div class="tumbnail">
+          <a href="alluser.php">
+      <img src="img/icon/profile.png" />
+        All Users
+            </a>
+        </div>
+        <div class="tumbnail">
         	<a href="register.php">
 			<img src="img/icon/profile.png" />
 			add user
@@ -36,24 +42,6 @@ $q=mysql_query("select * from admin where Username='$user'") or die ('select ero
         	<a href="testimony.php">
 			<img src="img/icon/profile.png" />
 			Testimony
-      	    </a>
-        </div>
-        <div class="tumbnail">
-        	<a href="profile.php">
-			<img src="img/icon/profile.png" />
-			Howdy, <?php echo $user; ?>
-      	    </a>
-        </div>
-        <div class="tumbnail">
-        	<a href="profile.php">
-			<img src="img/icon/profile.png" />
-			Howdy, <?php echo $user; ?>
-      	    </a>
-        </div>
-        <div class="tumbnail">
-        	<a href="profile.php">
-			<img src="img/icon/profile.png" />
-			Howdy, <?php echo $user; ?>
       	    </a>
         </div>
       

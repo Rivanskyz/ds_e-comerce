@@ -11,8 +11,9 @@ if($row['Username']==$username and $row['Pass']==$password){
 $_SESSION['username']=$username;
 header('location:home.php');
 }else{
-echo "GAGAL OM!!";
+
 header("location:login.php");
+
 }
 
 ?>
